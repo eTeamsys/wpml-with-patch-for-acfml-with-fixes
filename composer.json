@@ -1,4 +1,7 @@
 {
-  "name" : "eteamsys/sitepress-multilingual-cms",
+  "name" : "eteamsys/wpml-with-patch-for-acfml-with-fixes",
   "type" : "wordpress-plugin"
+  "extra": {
+        "installer-name": "sitepress-multilingual-cms"
+  }
 }
