@@ -119,6 +119,8 @@ class WPML_Sync_Term_Meta_Action {
 			$wpdb->query( $insert_prepared );
 		}
 
+		do_action( 'wpml_after_copy_term_custom_field', $term_id_from, $term_id_to, $meta_key );
+
 		wp_cache_init();
 	}
 
